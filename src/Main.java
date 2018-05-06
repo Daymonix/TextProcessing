@@ -12,7 +12,7 @@ public class Main {
 		
 		data = readFile("testdata.txt");
 		
-		Book b = new Book(StringPreproc.Prepare(data), 1000);
+		Book b = new Book(StringPreproc.Prepare(data), 10);
 		
 		System.out.print("Enter count: ");
 		Scanner sc = new Scanner(System.in);
